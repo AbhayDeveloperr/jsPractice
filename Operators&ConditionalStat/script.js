@@ -38,4 +38,30 @@
 // console.log("a = ", a);
           
 
+// Comparison Operators 
+// let a = 5;
+// let b = 2;
+// console.log("a == b", a==b);     //True,or False always
+
+
+// Logical Operators
+// logical AND (&&)   True Only When Both Conditions are TRUE
+// let a = 6;
+// let b = 5;
+// let cond1 = a>b; //true
+// let cond2 = a === 6;  //true
+// console.log("cond1 && cond2", cond1 && cond2);
+
+// logical OR    True when atleast One condition is True
+// let a = 6;
+// let b = 5;
+// let cond1 = a<b; //False
+// let cond2 = a === 6;  //true
+// console.log("cond1 || cond2", cond1 || cond2);
+
+// logical NOT     Invert The Result
+let a = 6;
+let b = 5;
+console.log("!a =", !(a === 6));
+
 
