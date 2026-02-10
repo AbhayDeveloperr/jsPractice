@@ -60,8 +60,42 @@
 // console.log("cond1 || cond2", cond1 || cond2);
 
 // logical NOT     Invert The Result
-let a = 6;
-let b = 5;
-console.log("!a =", !(a === 6));
+// let a = 6;
+// let b = 5;
+// console.log("!a =", !(a === 6));
 
+
+
+
+// Conditional Statements
+
+// If
+// let age = 22;
+// if(age >= 18){
+//     console.log("You can vote");
+// }
+// if(age < 18){
+//     console.log("You cannot vote");
+// }
+
+// If Else
+// let age = 17;
+// if(age >= 18){
+//     console.log("You can drive");
+// }
+// else{
+//     console.log("You cannot drive");
+// }
+
+// Else if
+// let age = 61;
+// if(age<18){
+//     console.log("Junior");
+// }
+// else if(age>60){
+//     console.log("Senior");
+// }
+// else{
+//     console.log("Middle");
+// }
 
