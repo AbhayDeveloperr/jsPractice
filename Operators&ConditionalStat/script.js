@@ -101,7 +101,47 @@
 
 
 // Ternary Operators
-let age = 25;
-let result = age >= 18 ? "Adult" : "Not Adult";
-console.log(result);
+// let age = 25;
+// let result = age >= 18 ? "Adult" : "Not Adult";
+// console.log(result);
 
+
+// Switch Statements
+// let a = 8;
+// let b = 4;
+// let oper = "-";
+// switch(oper){
+//     case "+":
+//         console.log(a + b);
+//         break;
+//     case "-":
+//         console.log(a - b);
+//         break;
+// }
+
+// Practice Q1
+// let num = prompt("Enter a number:");
+// if(num % 5 === 0){
+//     console.log(num,"is a Multiple of 5");
+// }
+// else{
+//     console.log(num, "is Not a Multiple of 5");
+// }
+
+//Practice Q2
+let scores = prompt("Enter Your Scores(0-100):");
+if(scores >= 80 && scores <= 100){
+    console.log(" Grade: A");
+}
+else if(scores >= 70 && scores <= 79){
+    console.log(" Grade: B");
+}
+else if(scores >= 60 && scores <= 69){
+    console.log(" Grade: C");
+}
+else if(scores >= 50 && scores <= 59){
+    console.log(" Grade: D");
+}
+else{
+    console.log("Fail");
+}
