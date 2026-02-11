@@ -93,7 +93,11 @@
 // console.log("the price of the",obj.item,"is",obj.price,"rupees");   //Simple Method
 
 //Template Literals
-let output = `the price of the ${obj.item} is ${obj.price} rupees`;  //ye sbko ek string manta hai
-console.log(output);
+// let output = `the price of the ${obj.item} is ${obj.price} rupees`;  //ye sbko ek string manta hai
+// console.log(output);
 
 
+//Practice Que on String
+let fullName = prompt("Enter your fullname without space");
+let userName = "@" + fullName + fullName.length;
+console.log(userName);
