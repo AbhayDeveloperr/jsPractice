@@ -75,9 +75,25 @@
 
 
 // Practice Q2
-let gameNum = 25;
-let userNum = prompt("Guess the Game number");
-while(gameNum != userNum){
-    userNum = prompt("You entered Wrong number, Guess again");
-}
-console.log("Congrats, You Guessed the right Number!!");
+// let gameNum = 25;
+// let userNum = prompt("Guess the Game number");
+// while(gameNum != userNum){
+//     userNum = prompt("You entered Wrong number, Guess again");
+// }
+// console.log("Congrats, You Guessed the right Number!!");
+
+
+// Strings
+//Template Literals
+// let obj = {
+//     item : "pen",
+//     price : 10,
+// };
+//Simple Method
+// console.log("the price of the",obj.item,"is",obj.price,"rupees");   //Simple Method
+
+//Template Literals
+let output = `the price of the ${obj.item} is ${obj.price} rupees`;  //ye sbko ek string manta hai
+console.log(output);
+
+
