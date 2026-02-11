@@ -54,12 +54,30 @@
 
 
 // for in loop
-let student = {
-    name: "Abhay",
-    age: 18,
-    cgpa:8.5,
-    isPass:true,
-};
-for(let key in student){
-    console.log("key=",key, "value=",student[key]);
+// let student = {
+//     name: "Abhay",
+//     age: 18,
+//     cgpa:8.5,
+//     isPass:true,
+// };
+// for(let key in student){
+//     console.log("key=",key, "value=",student[key]);
+// }
+
+
+
+//Practice Q1
+// for(let i=0; i<=10; i++){
+//     if(i%2 === 0){
+//         console.log("i =",i);
+//     }
+// }
+
+
+// Practice Q2
+let gameNum = 25;
+let userNum = prompt("Guess the Game number");
+while(gameNum != userNum){
+    userNum = prompt("You entered Wrong number, Guess again");
 }
+console.log("Congrats, You Guessed the right Number!!");
