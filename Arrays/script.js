@@ -35,9 +35,28 @@
 
 
 //Q2
-let price = [250,645,300,900,50];
-for(let i=0; i<price.length; i++){
-    let offer = price[i] / 10;
-    price[i] = price[i] - offer;
-}
-console.log(`final price after offer is ${price}`);
+// let price = [250,645,300,900,50];
+// for(let i=0; i<price.length; i++){
+//     let offer = price[i] / 10;
+//     price[i] = price[i] - offer;
+// }
+// console.log(`final price after offer is ${price}`);
+
+
+
+//Array Methods
+//push()
+// let foodItems = ["Potato","Apple","tomato"];
+// foodItems.push("orange","Mango");    //Add elements at End
+// console.log(foodItems);
+
+//pop()
+// let foodItems = ["Potato","Apple","tomato"];
+// foodItems.pop();                   //deletes elements from end
+// console.log(foodItems);
+
+//concat()
+let heroes1 = ["Krishh","Kick","FlyingJatt"];
+let heroes2 = ["Hulk","Thor"];
+let result = heroes1.concat(heroes2);
+console.log(result);
