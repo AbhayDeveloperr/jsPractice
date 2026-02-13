@@ -56,7 +56,12 @@
 // console.log(foodItems);
 
 //concat()
-let heroes1 = ["Krishh","Kick","FlyingJatt"];
-let heroes2 = ["Hulk","Thor"];
-let result = heroes1.concat(heroes2);
-console.log(result);
+// let heroes1 = ["Krishh","Kick","FlyingJatt"];
+// let heroes2 = ["Hulk","Thor"];
+// let result = heroes1.concat(heroes2);
+// console.log(result);
+
+//slice()
+let heroes1 = ["Krishh","Kick","FlyingJatt","Hulk"];
+console.log(heroes1.slice(1,3));     //3 include nahi hoga
+
