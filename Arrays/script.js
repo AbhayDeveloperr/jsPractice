@@ -62,6 +62,21 @@
 // console.log(result);
 
 //slice()
-let heroes1 = ["Krishh","Kick","FlyingJatt","Hulk"];
-console.log(heroes1.slice(1,3));     //3 include nahi hoga
+// let heroes1 = ["Krishh","Kick","FlyingJatt","Hulk"];
+// console.log(heroes1.slice(1,3));     //3 include nahi hoga
 
+
+
+//Practice Ques ArrayMethods
+let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+//a
+// companies.shift();
+// console.log(companies);
+
+//b
+// companies.splice(2,1,"Ola");
+// console.log(companies);
+
+//c
+companies.push("Amazon");
+console.log(companies);
