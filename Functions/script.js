@@ -29,17 +29,24 @@
 
 
 //Practice Q1
-function countVowel(str){
-    let count = 0;
-    for(let char of str){
-        if(char ==="a" || char === "e"  || char === "i" || char === "o" || char === "u"){
-            count++;
-        }
-    }
-    console.log(count);
-}
-countVowel("abhay");
+// function countVowel(str){
+//     let count = 0;
+//     for(let char of str){
+//         if(char ==="a" || char === "e"  || char === "i" || char === "o" || char === "u"){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+// countVowel("abhay");
 
+
+
+//forEach Loop 
+let arr = ["Lucknow","Deoria"];
+arr.forEach((val)=>{
+    console.log(val)
+});
 
 
 
