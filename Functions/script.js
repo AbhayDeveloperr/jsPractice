@@ -20,11 +20,25 @@
 // console.log(val);
 
 
-//Arrow Function 
-const sum = (a,b) =>{
-    return a+b;
+// //Arrow Function 
+// const sum = (a,b) =>{
+//     return a+b;
+// }
+// console.log(sum(3,5));
+
+
+
+//Practice Q1
+function countVowel(str){
+    let count = 0;
+    for(let char of str){
+        if(char ==="a" || char === "e"  || char === "i" || char === "o" || char === "u"){
+            count++;
+        }
+    }
+    console.log(count);
 }
-console.log(sum(3,5));
+countVowel("abhay");
 
 
 
