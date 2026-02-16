@@ -43,11 +43,24 @@
 
 
 //forEach Loop 
-let arr = ["Lucknow","Deoria"];
-arr.forEach((val)=>{
-    console.log(val)
-});
+// let arr = ["Lucknow","Deoria"];
+// arr.forEach((val)=>{
+//     console.log(val)
+// });
 
 
+//Practice Que on forEach Loop 
+// let arr = [1,2,3,4,5];
+// arr.forEach((num)=>{
+//     console.log(num*num)
+// });
+
+//Practice Que
+let num = 20;
+let guess = prompt("Guess your no.");
+while(num!=guess){
+    guess= prompt("you guessed wrong number,guess again")
+}
+console.log("Congrats, you guessed right no");
 
 
