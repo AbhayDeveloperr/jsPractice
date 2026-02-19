@@ -1,7 +1,7 @@
 // console.dir(document.body)    //Print Properties and Methods of body tag
 // console.log(document.body);   //Print the tags Of Body tag
 
-//We can change the color in JS
+//We can change the color of HTML in JS
 //document.body.style.background = "purple";
 
 //We can Change the Elements of a tag in JS
@@ -22,8 +22,10 @@
 // let paras= document.getElementsByTagName("p");
 // console.dir(paras);
 
-function myFunction(x,y){
-    console.log(a*b);
-}
-myFunction(3,3);
+//Query Selector
+let firstEL = document.querySelector("p");     //for 1st element
+console.dir(firstEL);
+
+let allEL = document.querySelectorAll("p");    //for Nodelist
+console.dir(allEL);
 
