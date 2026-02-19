@@ -23,9 +23,29 @@
 // console.dir(paras);
 
 //Query Selector
-let firstEL = document.querySelector("p");     //for 1st element
-console.dir(firstEL);
+// let firstEL = document.querySelector("p");     //for 1st element
+// console.dir(firstEL);
 
-let allEL = document.querySelectorAll("p");    //for Nodelist
-console.dir(allEL);
+// let allEL = document.querySelectorAll("p");    //for Nodelist
+// console.dir(allEL);
+
+// let element = document.querySelectorAll("#header");    //for ID
+// console.dir(element);                               
+
+
+//Properties
+//.tagName
+let el = document.querySelector("p");
+console.dir(el);
+console.dir(el.tagName);
+
+//.innerText
+let el1= document.querySelector("div");
+console.dir(el1);
+console.dir(el1.innerText);
+
+//.innerHTML
+let el2= document.querySelector("div");
+console.dir(el2);
+console.dir(el2.innerHTML);
 
