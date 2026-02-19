@@ -22,7 +22,7 @@
 // let paras= document.getElementsByTagName("p");
 // console.dir(paras);
 
-//Query Selector
+//Query Selector/Accesing element
 // let firstEL = document.querySelector("p");     //for 1st element
 // console.dir(firstEL);
 
