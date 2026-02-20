@@ -43,7 +43,7 @@ console.dir(el.tagName);
 let el1= document.querySelector("div");
 console.dir(el1);
 console.dir(el1.innerText);
-// el1.innerText = "abcde";      //To update anything
+// el1.innerText = "abcde";      //To Add,update anything
 // console.log(el1.innerText);
 
 

@@ -1,4 +1,4 @@
-//getAttribute
+//getAttribute -->
 // let div = document.querySelector("#box");    //for id
 // console.log(div);
 // let a = div.getAttribute("id");
@@ -10,7 +10,7 @@
 // console.log(b);
 
 
-//setAttribute
+//setAttribute -->
 // let para1 = document.querySelector(".line");    //for class
 // console.log(para1);
 // let c = para1.setAttribute("class","guruClass");
@@ -26,14 +26,14 @@
 
 
 
-//Insert Elements
-//create
+//Insert Elements -->
+//1.create
 let newbtn = document.createElement("button");
 newbtn.innerText = "click me";
 console.log(newbtn);
 
-//Add
-//node.append, prepend
+//2.Add
+//append, prepend,before,after
 let val = document.querySelector("div");        //accessing div
 // val.append(newbtn);           //append
 
@@ -42,3 +42,19 @@ let val = document.querySelector("div");        //accessing div
 // val.before(newbtn);           //before
 
 val.after(newbtn);           //after
+
+//Example using above
+let newHeading = document.createElement("h3");      //create
+newHeading.innerText = "Hi Abhay";
+console.log(newHeading);
+
+let heading = document.querySelector("body");       //accessing div
+heading.prepend(newHeading);
+
+
+
+//Delete Element -->
+let para = document.querySelector(".line");
+// para.remove();
+
+
