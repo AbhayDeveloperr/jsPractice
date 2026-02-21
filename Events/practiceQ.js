@@ -1,4 +1,4 @@
-let modeBtn = document.querySelector("#mode");
+let modeBtn = document.querySelector("#mode");          //accesing button tag
 let currMod = "light";
 
 modeBtn.addEventListener("click",() =>{
