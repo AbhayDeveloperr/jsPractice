@@ -1,17 +1,28 @@
 let userScore = 0;
-let computerScore = 0;
+let compScore = 0;
 
 let choices = document.querySelectorAll(".choice");
+let msg = document.querySelector("#msg");
+let userScorePara = document.querySelector("#userScore");
+let compScorePara = document.querySelector("#computerScore");
 
 const drawGame = () =>{
     console.log("It's a draw!");
+    msg.innerText = "It's a draw!,Play again!";
+    msg.style.backgroundColor = "gray";
 }
 
-const showWinner = (userWin) =>{
+const showWinner = (userWin,userChoice,compChoice) =>{
     if(userWin){
-        console.log("You Win!");
+        userScore++;
+        userScorePara.innerText = userScore;
+        msg.innerText = `You win! Your ${userChoice} beats ${compChoice}`;
+        msg.style.backgroundColor = "green";
     }else{
-        console.log("You Lose!");
+       compScore++;
+        compScorePara.innerText = compScore;
+        msg.innerText = `You lose! ${compChoice} beats your ${userChoice}`;
+        msg.style.backgroundColor = "red";
     }
 }
 
@@ -41,7 +52,7 @@ const playGame = (userChoice) =>{
             //rock, paper
             compChoice === "rock"? userWin = false : userWin = true;
         }
-        showWinner(userWin);
+        showWinner(userWin,userChoice,compChoice);
    }
 };
 
