@@ -80,3 +80,4 @@ let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
 //c
 companies.push("Amazon");
 console.log(companies);
+console.log("Maintaining Streaks");
