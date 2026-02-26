@@ -32,3 +32,28 @@ Guru2.__proto__ = employee;
 
 console.log(Guru.calcTax());
 console.log(Guru2.calcTax());
+
+
+
+
+//Classes in JS -->
+class ToyotaCar{
+    //constructer
+    constructor(brand,mileage){
+        console.log("creating new object");
+        this.brand = brand;
+        this.mileage= mileage;
+    }
+    start(){
+        console.log("start");
+    }
+    stop(){
+        console.log("stop");
+    }
+}
+
+let fortuner = new ToyotaCar("fortunerLegender",15);
+console.log(fortuner);
+
+let supra = new ToyotaCar("supraaa",8);
+console.log(supra);
