@@ -63,26 +63,56 @@ console.log(supra);
 
 // Inheritance -->
 // example
+// class Person {
+//     constructor(){
+//         this.species ="homo sapiens";
+//     }
+//     eat(){
+//         console.log("eat");
+//     }
+//     sleep(){
+//         console.log("sleep");''
+//     }
+// }
+
+// class Engineer extends Person{
+//     work(){
+//         console.log("solve problems,build something");
+//     }
+// }
+
+// let abhayObj = new Engineer();
+// console.log(abhayObj);
+// abhayObj.work();
+// abhayObj.eat();
+// abhayObj.sleep();
+
+
+
+// Super keyword -->
 class Person {
     constructor(){
+        console.log("this is parent class constructer")
         this.species ="homo sapiens";
     }
     eat(){
         console.log("eat");
     }
-    sleep(){
-        console.log("sleep");''
-    }
 }
 
 class Engineer extends Person{
+    constructor(branch){
+        console.log("this is child class constructor");
+        super(); //call parent constructor
+        this.branch= branch;
+        console.log("exiting child class constructor");
+    }
     work(){
+        super.eat()   //eat fn ko sbse phle invoke karne ke liye
         console.log("solve problems,build something");
     }
 }
 
-let abhayObj = new Engineer();
-console.log(abhayObj);
-abhayObj.work();
-abhayObj.eat();
-abhayObj.sleep();
+let engObj = new Engineer("Computer Science");
+console.log(engObj);
+console.log(engObj.work());
