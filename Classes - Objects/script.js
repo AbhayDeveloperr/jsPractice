@@ -54,6 +54,35 @@ class ToyotaCar{
 
 let fortuner = new ToyotaCar("fortunerLegender",15);
 console.log(fortuner);
+// fortuner.start();
 
 let supra = new ToyotaCar("supraaa",8);
 console.log(supra);
+
+
+
+// Inheritance -->
+// example
+class Person {
+    constructor(){
+        this.species ="homo sapiens";
+    }
+    eat(){
+        console.log("eat");
+    }
+    sleep(){
+        console.log("sleep");''
+    }
+}
+
+class Engineer extends Person{
+    work(){
+        console.log("solve problems,build something");
+    }
+}
+
+let abhayObj = new Engineer();
+console.log(abhayObj);
+abhayObj.work();
+abhayObj.eat();
+abhayObj.sleep();
