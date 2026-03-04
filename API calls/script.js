@@ -12,3 +12,4 @@ const getFacts = async() =>{
 console.log(getFacts());
 
 console.log("maintaining streaks");
+console.log("maintaining streaks again");
